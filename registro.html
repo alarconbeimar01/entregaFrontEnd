@@ -2,9 +2,40 @@
 <html>
 <head>
 <meta charset="utf-8">
+	<link rel="stylesheet" href="./css/styles1.css">
 <title>Registrarse</title>
 </head>
 
 <body>
+	<h2 align="center">REGISTRO DE USUARIOS</h2>
+
+    <p>
+      
+   
+    <div align="center">
+      <form action="Validador/registrarUsuarioV.php" method="post" class="login-main">
+<table width="auto%" border="0">
+  <tr>
+    <th scope="row">Usuario:</th>
+    <td><input class="input" name="usuario"  type="text" required   ></td>
+  </tr>
+  <tr>
+    <th scope="row">Contraseña:</th>
+    <td><input class="input" type="password" name="password" required>
+  </tr>
+  <tr>
+    <th scope="row">Telefono:</th>
+    <td><input class="input" type="number" name="telefono" required></td>
+  </tr>
+  <tr>
+    <th scope="row">E-mail:</th>
+    <td><input class="input" type="email" name="email" required></td>
+  </tr>
+</table>
+
+			  <input type="submit" name="Submit" value="REGISTRAR" align="center" />
+		 
+       </form>	
+	
 </body>
 </html>
