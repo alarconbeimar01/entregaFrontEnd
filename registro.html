@@ -2,40 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<link rel="stylesheet" href="./css/styles1.css">
+	<link rel="stylesheet" href="./css/styles-login.css">
 <title>Registrarse</title>
 </head>
+	
 
 <body>
-	<h2 align="center">REGISTRO DE USUARIOS</h2>
+	<header class="header"></header>
+  <section class="login">
+      <section class="login__container">
+	<h2 >Registro de usuario</h2>
 
-    <p>
-      
-   
-    <div align="center">
-      <form action="Validador/registrarUsuarioV.php" method="post" class="login-main">
-<table width="auto%" border="0">
-  <tr>
-    <th scope="row">Usuario:</th>
-    <td><input class="input" name="usuario"  type="text" required   ></td>
-  </tr>
-  <tr>
-    <th scope="row">Contraseña:</th>
-    <td><input class="input" type="password" name="password" required>
-  </tr>
-  <tr>
-    <th scope="row">Telefono:</th>
-    <td><input class="input" type="number" name="telefono" required></td>
-  </tr>
-  <tr>
-    <th scope="row">E-mail:</th>
-    <td><input class="input" type="email" name="email" required></td>
-  </tr>
-</table>
-
-			  <input type="submit" name="Submit" value="REGISTRAR" align="center" />
-		 
+         <form class="login__container--form" action="#" method="post" >
+			<input class="input" name="usuario"  type="text" placeholder="Usuario" required>
+    		<input class="input" type="password" name="password" placeholder="Password" required>
+  			<input class="input" type="number" name="telefono" placeholder="Teléfono" required>
+			<input class="input" type="email" name="email" placeholder="e-mail" required>
+  		 	<input class="button" type="submit" name="Submit" value="REGISTRAR" align="center">		 
        </form>	
+		  <p class="login__container--register">Ya tienes cuenta <a href="index.html">Inicia Sesión</a></p>
+	  </section> 
+	
+<footer class="footer">
+    <a href="">Términos de uso</a>
+    <a href="">Declaración de privacidad</a>
+    <a href="">Centro de ayuda</a>
+</footer>
 	
 </body>
 </html>
