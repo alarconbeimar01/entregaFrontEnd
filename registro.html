@@ -1,25 +1,31 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<meta charset="utf-8">
-	<link rel="stylesheet" href="./css/styles-login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles-login.css">
 <title>Registrarse</title>
 </head>
 	
-
+<script src="js/alertas.js"></script>
 <body>
 	<header class="header"></header>
   <section class="login">
       <section class="login__container">
 	<h2 >Registro de usuario</h2>
 
-         <form class="login__container--form" action="#" method="post" >
+         <form class="login__container--form" method="post" action="#">
 			<input class="input" name="usuario"  type="text" placeholder="Usuario" required>
     		<input class="input" type="password" name="password" placeholder="Password" required>
+			 <input class="input" type="password" name="confirmarpassword" placeholder="Confirmar Password" required>
   			<input class="input" type="number" name="telefono" placeholder="Teléfono" required>
 			<input class="input" type="email" name="email" placeholder="e-mail" required>
-  		 	<input class="button" type="submit" name="Submit" value="REGISTRAR" align="center">		 
+  		 	<input class="button" type="button" name="Submit" value="REGISTRAR" align="center" onClick="validarContrasenas(this.form)">		 
        </form>	
+		  </section> 
 		  <p class="login__container--register">Ya tienes cuenta <a href="index.html">Inicia Sesión</a></p>
 	  </section> 
 	
