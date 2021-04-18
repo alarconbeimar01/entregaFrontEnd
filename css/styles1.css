@@ -68,12 +68,12 @@
 
 .main {
   background: linear-gradient(#21C08B, #AB88FF);
-  display: flex;
+ display: flex; 
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 0px 30px;
-  /* min-height: calc(100vh - 20px); */
+   min-height: calc(100vh - 20px); 
 }
 .main__container {
   background-color: rgba(255, 255, 255, 0.1);
@@ -150,6 +150,7 @@
 			width: 80%;
 			background-color: rgba(255,255,255,0.10);
 			outline: none;
+			margin-top: 10px;
 
 
 
@@ -178,6 +179,7 @@ padding: 0px 50px 0px 50px;
   align-items: center;
   height: 100px;
   width: 100%;
+	justify-content: center;
 }
 .footer a{
   color: white;
