@@ -30,4 +30,21 @@ function validarContrasenas(form)
     return false;
     }
 }
+
+function validacionFecha() {
+
+  if (buscador.ini2.value == ""){
+
+        alert("Debe seleccionar una fecha Inicio")
+	
+	}
+  if (buscador.fin.value == ""){
+
+        alert("Debe seleccionar una fecha Fin")
+
+    }
+	else
+		return true;
+	
+}
    
