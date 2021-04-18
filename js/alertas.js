@@ -7,6 +7,14 @@ function preguntarRecaudar() {
 		}
 }
 
+function preguntarNC() {
+	if(confirm("Los datos son correctos?")){
+		return true;
+	}
+	else{
+		return false;
+		}
+}
 
 
 function validarContrasenas(form)
