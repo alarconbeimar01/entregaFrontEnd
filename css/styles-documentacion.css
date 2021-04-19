@@ -86,6 +86,22 @@
 .login__container--register a:hover{
   text-decoration: underline;
 }
+
+/* media query para ajustar a dispositivos */
+
+@media only screen and (max-width:600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+    
+  }
+  
 .footer{
   background: #AB88FF;
   display: flex;
