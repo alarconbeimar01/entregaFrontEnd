@@ -95,7 +95,8 @@
 .footer{
   background: #AB88FF;
   display: flex;
- /* align-items: center;*/
+  margin-top: 5%;
+ align-items: center;
   height: 100px;
   width: 100%;
 }
