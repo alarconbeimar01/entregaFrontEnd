@@ -95,7 +95,7 @@
 .footer{
   background: #AB88FF;
   display: flex;
-  align-items: center;
+ /* align-items: center;*/
   height: 100px;
   width: 100%;
 }
