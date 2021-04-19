@@ -95,15 +95,15 @@
 .footer{
   background: #AB88FF;
   display: flex;
-text-align: center;
- align-items: center;
+  align-items: center;
   height: 100px;
   width: 100%;
 }
 .footer a{
   color: white;
   cursor: pointer;
-  margin-top: 2%;
+  align-items: center;
+  margin-top: 2px;
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
