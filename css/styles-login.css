@@ -2,6 +2,12 @@ body {
   margin: 0;
   font-family: 'Muli', sans-serif;
 }
+.menu_mp_izq{
+  float: left;
+  margin-left: 10%;
+  text-align: left;
+  align-items: left;
+}
 
 .header {
   align-items: center;
@@ -29,12 +35,7 @@ body {
   text-decoration: none;
 } 
 
-.menu_mp_izq{
-  float: left;
-  margin-left: 10%;
-  text-align: left;
-  align-items: left;
-}
+
 .menu_mp_der{
   float: right;
   margin-left: 50%;
