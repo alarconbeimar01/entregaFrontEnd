@@ -35,6 +35,7 @@ body {
   align-items: left;
 }
 .menu_mp_der{
+  margin-left: 50%;
   text-align: right;
   align-items: right;
 }
