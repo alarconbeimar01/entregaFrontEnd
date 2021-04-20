@@ -28,6 +28,12 @@ body {
   padding-left: 30px;
   text-decoration: none;
 } 
+
+.imagen_mp{
+  text-align: left;
+  align-items: left;
+}
+
 .login {
   background: linear-gradient(#21C08B, #AB88FF);
   display: flex;
