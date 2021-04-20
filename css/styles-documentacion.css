@@ -1,14 +1,13 @@
-.etiqueta_mp a{
-    color: white;
+.etiqueta_mp {
+  color: white;
   cursor: pointer;
   align-items: center;
   margin-top: 2px;
   font-size: 14px;
   padding-left: 30px;
   text-decoration: none;
-
-
 }
+
 .header {
   align-items: center;
   background-color: #21c08b;
