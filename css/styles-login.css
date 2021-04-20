@@ -2,6 +2,17 @@ body {
   margin: 0;
   font-family: 'Muli', sans-serif;
 }
+.etiqueta_mp {
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
 .header {
   align-items: center;
   background-color: #21c08b;
@@ -144,15 +155,5 @@ margin: 10px 0px;
     flex-direction: column;
     
   }
-.etiqueta_mp {
-  color: white;
-  cursor: pointer;
-  align-items: center;
-  text-align: center;
-  margin-top: 5%;
-  font-size: 14px;
-  padding-left: 30px;
-  text-decoration: none;
-}
 
 }
