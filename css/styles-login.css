@@ -32,6 +32,8 @@ body {
 
 .div_mp {
   justify-content: space-around;
+  float: right;
+  color: red;
 }
 
 
