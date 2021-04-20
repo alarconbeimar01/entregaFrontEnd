@@ -32,6 +32,7 @@ body {
 
 .menu_mp_izq{
   justify-content: flex-start;
+  color: red;
 }
 
 .menu_mp_der{
