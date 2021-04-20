@@ -30,6 +30,10 @@ body {
   text-decoration: none;
 } 
 
+.div_mp {
+  justify-content: space-around;
+}
+
 
 .align-image{
   padding-top: 2%;
