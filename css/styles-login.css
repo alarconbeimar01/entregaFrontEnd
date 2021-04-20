@@ -35,6 +35,7 @@ body {
   text-align: left;
   align-items: left;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .menu_mp_der{
