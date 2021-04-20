@@ -31,11 +31,7 @@ body {
 } 
 
 .menu_mp_izq{
-  float: left;
-  text-align: left;
-  align-items: left;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .menu_mp_der{
