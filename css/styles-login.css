@@ -30,10 +30,10 @@ body {
   text-decoration: none;
 } 
 
-.menu_mp{
-  align-items: stretch;
-  justify-content: space-around;
-  color: red;
+
+.align-image{
+  padding-top: 2%;
+  padding-right: 60%;
 }
 
 .menu_mp_der{
