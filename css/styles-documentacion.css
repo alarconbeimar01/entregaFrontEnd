@@ -98,6 +98,7 @@
   background: #AB88FF;
   display: flex;
   align-items: center;
+  text-align: center;
   height: 100px;
   width: 100%;
 }
@@ -105,6 +106,7 @@
   color: white;
   cursor: pointer;
   align-items: center;
+  text-align: center;
   margin-top: 2px;
   font-size: 14px;
   padding-left: 30px;
