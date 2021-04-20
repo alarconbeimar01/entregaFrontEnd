@@ -31,7 +31,7 @@ body {
 } 
 
 .menu_mp{
-  justify-content: space-around;
+  justify-content: space-between;
   color: red;
 }
 
