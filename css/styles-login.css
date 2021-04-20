@@ -30,6 +30,7 @@ body {
 } 
 
 .menu_mp_izq{
+  margin-left: 10%;
   text-align: left;
   align-items: left;
 }
