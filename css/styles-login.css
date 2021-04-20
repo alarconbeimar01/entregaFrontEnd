@@ -30,11 +30,13 @@ body {
 } 
 
 .menu_mp_izq{
+  float: left;
   margin-left: 10%;
   text-align: left;
   align-items: left;
 }
 .menu_mp_der{
+  float: right;
   margin-left: 50%;
   text-align: right;
   align-items: right;
