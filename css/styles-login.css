@@ -29,11 +29,14 @@ body {
   text-decoration: none;
 } 
 
-.imagen_mp{
+.menu_mp_izq{
   text-align: left;
   align-items: left;
 }
-
+.menu_mp_der{
+  text-align: right;
+  align-items: right;
+}
 .login {
   background: linear-gradient(#21C08B, #AB88FF);
   display: flex;
